@@ -18,4 +18,4 @@ function Welcome(props) {
    return  isLoggedOn ? <LoggedOn name={userName}/> : <SignIn/>
 }
 
-export default Welcome;
+export default Welcome

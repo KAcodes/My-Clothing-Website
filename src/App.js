@@ -1,7 +1,7 @@
-import logo from './logo.svg';
+
 import './App.css';
 import Welcome from './Welcome.jsx'; 
-import LandingPage from './MainContent';
+import LandingPage from './Landing';
 import Product from './Products';
 
 import myLogo from './mylogo.jpg';
@@ -39,7 +39,6 @@ function App() {
         <Col sm={3}><img src={myLogo} className="myLogo img-responsive" alt="logo" /></Col>
         <Col sm={9} className="text-center"><Welcome isLoggedOn= {true} name="Kayode" /></Col>
       </Row>
-      <div className="Header"></div>
       <br></br>
       <Row className="text-center"><Col><LandingPage/> </Col></Row>
       <Row>
